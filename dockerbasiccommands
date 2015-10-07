@@ -1,0 +1,4 @@
+####while running docker as a slave of jenkins###
+### docker daemon has to listen on 4243##
+###hence this has to be attached###
+docker -H=tcp://127.0.0.1:4243
